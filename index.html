@@ -14,16 +14,28 @@
   </head>
 
   <body>
+    <div
+      class="body-container"
+      style="background-color: #111827; height: 100vh"
+    >
+      <section class="main">
+        <div class="nav-brand" style="color: white">
+          Phoenix <br /><span class="subtitle">Corps</span>
+        </div>
+        <div class="logo"><img src="./photo.svg"</div>
+      </section>
+    </div>
+
     <div class="container">
       <nav class="navigation container">
         <div class="nav-brand">
           Phoenix <br /><span class="subtitle">Corps</span>
         </div>
-        <ul class="non-bullet">
+        <ul class="non-bullet hidden">
           <li class="list-inline">
-            <a href="index.html" class="active">Services</a>
+            <a href="#service" class="active">Services</a>
           </li>
-          <li class="list-inline"><a href="#">Works</a></li>
+          <li class="list-inline"><a href="#works">Works</a></li>
           <li class="list-inline"><a href="#">About</a></li>
           <li class="list-inline"><a href="#">Contact</a></li>
         </ul>
@@ -48,10 +60,23 @@
     </div>
 
     <div class="body-container">
-      <section class="general-section">
+      <section class="general-section service_bg">
         <div class="header">Services</div>
 
-        <ul class="non-bullet">
+        <ul class="non-bullet service_tiles" id="service">
+          <li class="services">
+            <a href="index.html" class="active">Marketing</a>
+          </li>
+          <li class="services"><a href="#">Startups</a></li>
+          <li class="services"><a href="#">Websites</a></li>
+          <li class="services"><a href="#">Digital Consultancy</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="body-container">
+      <section class="general-section works_bg">
+        <div class="header">Works</div>
+        <ul class="non-bullet service_tiles" id="works">
           <li class="services">
             <a href="index.html" class="active">Marketing</a>
           </li>

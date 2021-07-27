@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   padding: 0;
   max-width: 100%;
   overflow-x: hidden;
@@ -9,6 +9,18 @@
   background-color: #4b5563;
   padding: 1rem;
 }
+
+.logo {
+  font-size: 3rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -18,8 +30,19 @@ body {
   display: flex;
 }
 
+hr {
+  width: 50%;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  flex-wrap: wrap;
+}
 .nav-brand {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: bold;
   color: white;
   margin-right: 1rem;
@@ -37,7 +60,7 @@ body {
   flex-wrap: wrap;
 }
 
-ul {
+.hidden {
   visibility: hidden;
 }
 
@@ -50,12 +73,20 @@ ul {
   padding: 3rem;
 }
 
+.service_bg {
+  background-color: #bfdbfe;
+}
+
 .content {
-  width: 70%;
+  width: 90%;
   line-height: 2rem;
   font-size: 1.4rem;
 }
 
+.works_bg {
+  background-color: #a7f3d0;
+  border-top: 1px solid #bfdbfe;
+}
 .about {
   background-color: #9ca3af;
 }
@@ -91,8 +122,13 @@ ul {
   padding: 3rem;
   font-size: 1.3rem;
 }
+
+.services a:hover {
+  background-color: crimson;
+}
+
 @media (min-width: 600px) {
-  ul {
+  .hidden {
     visibility: visible;
   }
   .list-inline {
@@ -123,5 +159,8 @@ ul {
     justify-content: space-between;
     flex: 1;
     flex-wrap: wrap;
+  }
+  .content {
+    width: 70%;
   }
 }

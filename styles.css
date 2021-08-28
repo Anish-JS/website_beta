@@ -8,6 +8,7 @@
 }
 .container {
   background-color: #4b5563;
+
   padding: 1rem;
 }
 
@@ -42,6 +43,7 @@ hr {
   margin: 1rem;
   flex-wrap: wrap;
 }
+
 .nav-brand {
   font-size: 5rem;
   font-weight: bold;
@@ -119,7 +121,7 @@ hr {
   flex-wrap: wrap;
   background-color: #6b7280;
   color: white;
-  padding: 3rem;
+  padding: 2rem;
   font-size: 1.3rem;
 }
 
@@ -163,4 +165,53 @@ hr {
   .content {
     width: 70%;
   }
+}
+
+.news-letter {
+  background-color: #9ca3af;
+}
+.news-letter header {
+  margin: 3rem;
+  margin-bottom: 2rem;
+}
+.newsletter-header {
+  text-align: center;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.input_control {
+  margin: 1rem;
+  text-align: center;
+}
+
+.email-input {
+  width: 30%;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-style: italic;
+  outline: none;
+}
+.hop-in {
+  display: block;
+  margin: auto;
+  width: 10%;
+  padding: 1rem;
+  /* padding-left: 2rem;
+  padding-right: 2rem; */
+  border-radius: 20px;
+  border: none;
+  background-color: #4b5563;
+  cursor: pointer;
+  color: white;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+input:focus {
+  border: 2px solid black;
+  border-radius: 30px;
 }

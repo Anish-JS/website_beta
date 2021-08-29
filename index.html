@@ -1,111 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Phoenix Corps</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
 
-  <body>
-    <div
-      class="body-container"
-      style="background-color: #111827; height: 100vh"
-    >
-      <section class="main">
-        <div class="nav-brand" style="color: white">
-          Phoenix <br /><span class="subtitle">Corps</span>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phoenix Corps</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/e612b5b46f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="body-container" style="background-color: #111827; height: 100vh">
+    <section class="main">
+      <div class="nav-brand" style="color: white">
+        Phoenix <br /><span class="subtitle">Corps</span>
+      </div>
+      <div class="logo"><img src="./photo.svg" /></div>
+      
+    </section>
+    <div class="arrow">
+        <span><a href="#centre_page"><i class="fas fa-sort-down fa-4x"></i></a></span>
+      </div>
+  </div>
+
+  <div class="container">
+    <nav class="navigation container">
+      <div class="nav-brand" id="centre_page">
+        Phoenix <br /><span class="subtitle">Corps</span>
+      </div>
+      <ul class="non-bullet hidden">
+        <li class="list-inline">
+          <a href="#service" class="active">Services</a>
+        </li>
+        <li class="list-inline"><a href="#works">Works</a></li>
+        <li class="list-inline"><a href="#">About</a></li>
+        <li class="list-inline"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="body-container">
+    <section class="general-section about">
+      <div class="header">How do we help you?</div>
+      <p class="content">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only
+        five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with
+        the release of Letraset sheets containing
+        <strong>Lorem Ipsum passages, and more recently with desktop publishing
+          software like Aldus PageMaker</strong>
+        including versions of Lorem Ipsum.
+      </p>
+    </section>
+  </div>
+
+  <div class="body-container">
+    <section class="general-section service_bg" id="service">
+      <div class="header">Services</div>
+
+      <ul class="non-bullet service_tiles">
+        <li class="services">
+          <a href="index.html" class="active">Marketing</a>
+        </li>
+        <li class="services"><a href="#">Startups</a></li>
+        <li class="services"><a href="#">Websites</a></li>
+        <li class="services"><a href="#">Digital Consultancy</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="body-container">
+    <section class="general-section works_bg">
+      <div class="header">Works</div>
+      <ul class="non-bullet service_tiles" id="works">
+        <li class="services">
+          <a href="index.html" class="active">Marketing</a>
+        </li>
+        <li class="services"><a href="#">Startups</a></li>
+        <li class="services"><a href="#">Websites</a></li>
+        <li class="services"><a href="#">Digital Consultancy</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="body-container">
+    <section class="news-letter">
+      <header>
+        <h1 class="newsletter-header">Newsletter sign-up</h1>
+      </header>
+
+      <div class="input_control">
+        <input type="email" class="email-input" placeholder="enter email ID @" />
+        <button class="hop-in">Hop-in</button>
+      </div>
+    </section>
+  </div>
+
+  <footer class="contact-info">
+    <div class="contact-info_controls">
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.960725544054!2d78.36809941470433!3d17.461593788034197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93c93c4a70c5%3A0x26e13c535ac2505e!2sVyjayanth%20Sonnets%2C%20Rd%20Number%201%2C%20Kohtaguda%2C%20Telangana%20500084!5e0!3m2!1sen!2sin!4v1630248830337!5m2!1sen!2sin"
+          width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="address">
+        <h2>Contact Us</h2>
+        <p>Address:</p>
+        <p>Phone number:</p>
+      </div>
+      <div class="socials">
+        <div class="connect">
+          <h2>Follow me on the below socials</h2>
         </div>
-        <div class="logo"><img src="./photo.svg" /></div>
-      </section>
-    </div>
-
-    <div class="container">
-      <nav class="navigation container">
-        <div class="nav-brand">
-          Phoenix <br /><span class="subtitle">Corps</span>
+        <div>
+          <span><a href="https://www.linkedin.com/in/anish-jakka-singaraiah-b534511b2/"><i
+                class="fab fa-linkedin-in fa-3x"></i></a></span>
+          <span><a href="https://github.com/Anish-JS"><i class="fab fa-github fa-3x"></a></i></span>
+          <span><a href="https://www.instagram.com/js_anish/"><i class="fab fa-instagram fa-3x"></i></a></span>
+          <span><a href="https://twitter.com/AnishJakka"><i class="fab fa-twitter-square fa-3x"></i></i></a></span>
         </div>
-        <ul class="non-bullet hidden">
-          <li class="list-inline">
-            <a href="#service" class="active">Services</a>
-          </li>
-          <li class="list-inline"><a href="#works">Works</a></li>
-          <li class="list-inline"><a href="#">About</a></li>
-          <li class="list-inline"><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+      </div>
     </div>
+  </footer>
+</body>
 
-    <div class="body-container">
-      <section class="general-section about">
-        <div class="header">How do we help you?</div>
-        <p class="content">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing
-          <strong
-            >Lorem Ipsum passages, and more recently with desktop publishing
-            software like Aldus PageMaker</strong
-          >
-          including versions of Lorem Ipsum.
-        </p>
-      </section>
-    </div>
-
-    <div class="body-container">
-      <section class="general-section service_bg" id="service">
-        <div class="header">Services</div>
-
-        <ul class="non-bullet service_tiles">
-          <li class="services">
-            <a href="index.html" class="active">Marketing</a>
-          </li>
-          <li class="services"><a href="#">Startups</a></li>
-          <li class="services"><a href="#">Websites</a></li>
-          <li class="services"><a href="#">Digital Consultancy</a></li>
-        </ul>
-      </section>
-    </div>
-
-    <div class="body-container">
-      <section class="general-section works_bg">
-        <div class="header">Works</div>
-        <ul class="non-bullet service_tiles" id="works">
-          <li class="services">
-            <a href="index.html" class="active">Marketing</a>
-          </li>
-          <li class="services"><a href="#">Startups</a></li>
-          <li class="services"><a href="#">Websites</a></li>
-          <li class="services"><a href="#">Digital Consultancy</a></li>
-        </ul>
-      </section>
-    </div>
-
-    <div class="body-container">
-      <section class="news-letter">
-        <header>
-          <h1 class="newsletter-header">Newsletter sign-up</h1>
-        </header>
-
-        <div class="input_control">
-          <input
-            type="email"
-            class="email-input"
-            placeholder="enter email ID"
-          />
-          <button class="hop-in">Hop-in</button>
-        </div>
-      </section>
-    </div>
-  </body>
 </html>
+
+<!-- <p class="socials-head">Follow me on the below socials</p> -->
+
+<!-- <span><a href="https://www.linkedin.com/in/anish-jakka-singaraiah-b534511b2/"><i
+              class="fab fa-linkedin-in fa-3x"></i></a></span>
+        <span><a href="https://github.com/Anish-JS"><i class="fab fa-github fa-3x"></a></i></span>
+        <span><a href="https://www.instagram.com/js_anish/"><i class="fab fa-instagram fa-3x"></i></a></span>
+        <span><a href="https://twitter.com/AnishJakka"><i class="fab fa-twitter-square fa-3x"></i></i></a></span> -->

@@ -12,6 +12,11 @@
   padding: 1rem;
 }
 
+.arrow {
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+}
 .logo {
   font-size: 3rem;
   padding: 1rem;
@@ -198,7 +203,7 @@ hr {
 .hop-in {
   display: block;
   margin: auto;
-  width: 10%;
+  /* width: 10%; */
   padding: 1rem;
   /* padding-left: 2rem;
   padding-right: 2rem; */
@@ -215,3 +220,45 @@ input:focus {
   border: 2px solid black;
   border-radius: 30px;
 }
+
+.contact-info {
+  background-color: #6b7280;
+}
+
+.contact-info_controls {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+
+/* .address {
+  width: 40%;
+}*/
+
+footer {
+  color: white;
+}
+.socials {
+  margin: 1rem;
+  /* width: 50%; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+i {
+  padding: 1rem;
+  color: white;
+}
+/* 
+.socials-head span {
+  margin: 1rem;
+  padding: 2rem;
+} */
+
+/* .socials-head {
+  text-align: center;
+} */

@@ -253,12 +253,38 @@ i {
   padding: 1rem;
   color: white;
 }
-/* 
-.socials-head span {
-  margin: 1rem;
-  padding: 2rem;
-} */
 
-/* .socials-head {
+.member-tiles {
+  background-color: #fecaca;
+}
+
+.team {
+  font-style: italic;
+  font-size: 2rem;
+  /* margin: 1rem; */
+}
+
+.members-list {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.member {
+  width: 30%;
+  margin: 1rem;
   text-align: center;
-} */
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.member-img {
+  height: 10rem;
+  margin: 1rem;
+  border-radius: 50%;
+}
